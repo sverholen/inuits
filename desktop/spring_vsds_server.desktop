@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Terminal=false
+Encoding=UTF-8
+Version=1.1
+Categories=Development;IDE;Programming
+StartupNotify=true
+
+Name=VSDS
+Name[en_GB]=VSDS
+Exec=env GTK_IM_MODULE=ibus /home/metastable/opt/eclipse.sh spring inuits/vsds/repo
+Icon=/home/metastable/opt/spring/icon.xpm
+
